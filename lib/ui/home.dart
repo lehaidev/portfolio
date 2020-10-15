@@ -109,7 +109,9 @@ class HomePage extends StatelessWidget {
     return SingleChildScrollView(
       child: ConstrainedBox(
         constraints: BoxConstraints(
-            minWidth: constraints.maxWidth, minHeight: constraints.maxHeight),
+          minWidth: constraints.maxWidth,
+          minHeight: constraints.maxHeight,
+        ),
         child: ResponsiveWidget(
           largeScreen: _buildLargeScreen(context),
           mediumScreen: _buildMediumScreen(context),

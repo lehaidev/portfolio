@@ -1,6 +1,7 @@
 define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui', 'packages/flutter_web/animation', 'packages/portfolio/utils/screen/screen_utils', 'packages/portfolio/ui/home'], (function load__packages__portfolio__main(dart_sdk, packages__flutter_web__material, packages__flutter_web_ui__ui, packages__flutter_web__animation, packages__portfolio__utils__screen__screen_utils, packages__portfolio__ui__home) {
   'use strict';
   const core = dart_sdk.core;
+  const async = dart_sdk.async;
   const dart = dart_sdk.dart;
   const dartx = dart_sdk.dartx;
   const app = packages__flutter_web__material.src__material__app;
@@ -25,7 +26,7 @@ define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
         [_Location_column]: 13,
-        [_Location_line]: 20,
+        [_Location_line]: 21,
         [_Location_file]: "org-dartlang-app:///packages/portfolio/main.dart"
       });
     },
@@ -35,7 +36,7 @@ define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui
         [_Location_parameterLocations]: null,
         [_Location_name]: "debugShowCheckedModeBanner",
         [_Location_column]: 7,
-        [_Location_line]: 14,
+        [_Location_line]: 15,
         [_Location_file]: null
       });
     },
@@ -45,7 +46,7 @@ define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui
         [_Location_parameterLocations]: null,
         [_Location_name]: "theme",
         [_Location_column]: 7,
-        [_Location_line]: 15,
+        [_Location_line]: 16,
         [_Location_file]: null
       });
     },
@@ -55,7 +56,7 @@ define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui
         [_Location_parameterLocations]: null,
         [_Location_name]: "home",
         [_Location_column]: 7,
-        [_Location_line]: 20,
+        [_Location_line]: 21,
         [_Location_file]: null
       });
     },
@@ -68,7 +69,7 @@ define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui
         [_Location_parameterLocations]: C3 || CT.C3,
         [_Location_name]: null,
         [_Location_column]: 12,
-        [_Location_line]: 13,
+        [_Location_line]: 14,
         [_Location_file]: "org-dartlang-app:///packages/portfolio/main.dart"
       });
     },
@@ -78,7 +79,7 @@ define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
         [_Location_column]: 12,
-        [_Location_line]: 36,
+        [_Location_line]: 37,
         [_Location_file]: "org-dartlang-app:///packages/portfolio/main.dart"
       });
     },
@@ -88,7 +89,7 @@ define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui
         [_Location_parameterLocations]: C1 || CT.C1,
         [_Location_name]: null,
         [_Location_column]: 10,
-        [_Location_line]: 7,
+        [_Location_line]: 8,
         [_Location_file]: "org-dartlang-app:///packages/portfolio/main.dart"
       });
     }
@@ -163,12 +164,15 @@ define(['dart_sdk', 'packages/flutter_web/material', 'packages/flutter_web_ui/ui
   dart.setLibraryUri(main._MyAppChildState, L0);
   var C8;
   main.main = function main$() {
-    binding.runApp(new main.MyApp.new({$creationLocationd_0dea112b090073317d4: C8 || CT.C8}));
+    return async.async(dart.void, function* main$() {
+      yield ui.webOnlyInitializePlatform();
+      binding.runApp(new main.MyApp.new({$creationLocationd_0dea112b090073317d4: C8 || CT.C8}));
+    });
   };
   dart.trackLibraries("packages/portfolio/main", {
     "package:portfolio/main.dart": main
   }, {
-  }, '{"version":3,"sourceRoot":"","sources":["main.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAW4B;AACxB,YAAO,sDACuB,cACrB,sCACkB,6CACY,4CACD,6BAE9B;IAEV;;;;;;EACF;;;;;;;;;;AAIoC;IAAkB;;;;;;EACtD;;;;;;;;;;UAI4B;;AAGqC,MAAlD,gFAAsB;AAAe,gBAAK,OAAO;;;AAC5D,YAAO;IACT;;;;;EACF;;;;;;;;;;AA/BiB,IAAf,eAAO;EACT","file":"main.unsound.ddc.js"}');
+  }, '{"version":3,"sourceRoot":"","sources":["main.dart"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;UAY4B;AACxB,YAAO,sDACuB,cACrB,sCACkB,6CACY,4CACD,6BAE9B;IAEV;;;;;;EACF;;;;;;;;;;AAIoC;IAAkB;;;;;;EACtD;;;;;;;;;;UAI4B;;AAGqC,MAAlD,gFAAsB;AAAe,gBAAK,OAAO;;;AAC5D,YAAO;IACT;;;;;EACF;;;;;;;;;;AAjCiB;AACqB,MAApC,MAAM;AACS,MAAf,eAAO;IACT","file":"main.unsound.ddc.js"}');
   // Exports:
   return {
     main: main
