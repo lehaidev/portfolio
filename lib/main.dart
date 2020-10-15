@@ -1,10 +1,8 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'package:portfolio/ui/home.dart';
-import 'package:flutter_web_ui/ui.dart' as ui;
 import 'package:portfolio/utils/screen/screen_utils.dart';
 
 Future<void> main() async {
-  await ui.webOnlyInitializePlatform();
   runApp(MyApp());
 }
 

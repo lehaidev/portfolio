@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'package:portfolio/constants/assets.dart';
 import 'package:portfolio/constants/fonts.dart';
 import 'package:portfolio/constants/strings.dart';
@@ -156,6 +156,7 @@ class HomePage extends StatelessWidget {
               ],
             ),
           ),
+          _buildIllustration(),
           _buildFooter(context)
         ],
       ),
@@ -168,6 +169,7 @@ class HomePage extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           Expanded(flex: 1, child: _buildContent(context)),
+          _buildIllustration(),
           Divider(),
           _buildCopyRightText(context),
           SizedBox(
