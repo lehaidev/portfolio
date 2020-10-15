@@ -27,8 +27,8 @@ jobs:
         run: |
           cd web
           git init
-          git config user.name  "CI"
-          git config user.email "flutter-ci@github.com"
+          git config user.name  "Hai Le"
+          git config user.email "lehaidev@gmail.com"
           git remote add secure-origin https://${{secrets.ACCESS_TOKEN}}@github.com/lehaidev/portfolio.git
           git checkout -b gh-pages
           git add .
