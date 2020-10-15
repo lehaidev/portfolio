@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="595ef1b1-7c92-4726-bfd5-708cef08f74e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1itf3U4isR8s4bIb6zWfEqoRtQk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="web/index.html" type="DartWebdevConfigurationType" factoryName="Dart Web" nameIsGenerated="true">
+      <option name="htmlFilePath" value="$PROJECT_DIR$/web/index.html" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="595ef1b1-7c92-4726-bfd5-708cef08f74e" name="Default Changelist" comment="" />
+      <created>1602731609713</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602731609713</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602732778319">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state x="184" y="108" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.847@0.23.1440.847" timestamp="1602732778319" />
+    <state x="457" y="243" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1602732776307">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state x="457" y="243" key="#com.intellij.ide.util.TreeFileChooserDialog/0.23.1440.847@0.23.1440.847" timestamp="1602732776307" />
+    <state width="1398" height="221" key="GridCell.Tab.0.bottom" timestamp="1602733081872">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state width="1398" height="221" key="GridCell.Tab.0.bottom/0.23.1440.847@0.23.1440.847" timestamp="1602733081872" />
+    <state width="1398" height="221" key="GridCell.Tab.0.center" timestamp="1602733081871">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state width="1398" height="221" key="GridCell.Tab.0.center/0.23.1440.847@0.23.1440.847" timestamp="1602733081871" />
+    <state width="1398" height="221" key="GridCell.Tab.0.left" timestamp="1602733081871">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state width="1398" height="221" key="GridCell.Tab.0.left/0.23.1440.847@0.23.1440.847" timestamp="1602733081871" />
+    <state width="1398" height="221" key="GridCell.Tab.0.right" timestamp="1602733081872">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state width="1398" height="221" key="GridCell.Tab.0.right/0.23.1440.847@0.23.1440.847" timestamp="1602733081872" />
+    <state x="308" y="196" key="IDE.errors.dialog" timestamp="1602731649181">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state x="308" y="196" key="IDE.errors.dialog/0.23.1440.847@0.23.1440.847" timestamp="1602731649181" />
+    <state x="0" y="23" width="1440" height="847" key="SettingsEditor" timestamp="1602733418884">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state x="0" y="23" width="1440" height="847" key="SettingsEditor/0.23.1440.847@0.23.1440.847" timestamp="1602733418884" />
+    <state x="412" y="201" width="615" height="490" key="find.popup" timestamp="1602733514798">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state x="412" y="201" width="615" height="490" key="find.popup/0.23.1440.847@0.23.1440.847" timestamp="1602733514797" />
+  </component>
+</project>
