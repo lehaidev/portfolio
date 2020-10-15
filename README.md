@@ -50,22 +50,22 @@ Here is the core folder structure which flutter provides.
 
 ```
 flutter-app/
-|- android
-|- build
-|- ios
-|- lib
-|- test
+\- android
+\- build
+\- ios
+\- lib
+\- test
 ```
 
 Here is the folder structure we have been using in this project
 
 ```
 lib/
-|- constants/
-|- ui/
-|- utils/
-|- widgets/
-|- main.dart
+\- constants/
+\- ui/
+\- utils/
+\- widgets/
+\- main.dart
 ```
 
 Now, lets dive into the lib folder which has the main code for the application.
@@ -84,10 +84,10 @@ This directory contains all the application level constants. A separate file is 
 
 ```
 constants/
-|- assets.dart
-|- fonts.dart
-|- strings.dart
-|- text_styles.dart
+\- assets.dart
+\- fonts.dart
+\- strings.dart
+\- text_styles.dart
 ```
 
 ### UI
@@ -96,11 +96,11 @@ This directory contains all the ui of your application. Each screen is located i
 
 ```
 ui/
-|- login
-   |- login_screen.dart
-   |- widgets
-      |- login_form.dart
-      |- login_button.dart
+\- login
+   \- login_screen.dart
+   \- widgets
+      \- login_form.dart
+      \- login_button.dart
 ```
 
 ### Utils
@@ -109,10 +109,10 @@ Contains the common file(s) and utilities used in a project. The folder structur
 
 ```
 utils/
-|- encryption
-   |- xxtea.dart
-|- date
-  |- date_time.dart
+\- encryption
+   \- xxtea.dart
+\- date
+  \- date_time.dart
 ```
 
 ### Widgets
@@ -121,9 +121,9 @@ Contains the common widgets that are shared across multiple screens. For example
 
 ```
 widgets/
-|- app_icon_widget.dart
-|- empty_app_bar.dart
-|- progress_indicator.dart
+\- app_icon_widget.dart
+\- empty_app_bar.dart
+\- progress_indicator.dart
 ```
 
 ### Main
@@ -173,5 +173,3 @@ class _MyAppChildState extends State<MyAppChild> {
   }
 }
 ```
-
-If you liked my work, don’t forget to ⭐ star the repo to show your support.
